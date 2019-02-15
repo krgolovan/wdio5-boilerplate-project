@@ -1,0 +1,60 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "plugins": ["webdriverio"],
+  "env": {
+    "webdriverio/wdio": true,
+    "mocha": true,
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "browser": true,
+    "$$": true,
+    "$": true,
+    "describe": true,
+    "it": true,
+    "itin": true,
+    "xit": true,
+    "before": true,
+    "after": true,
+    "afterEach": true,
+    "expect": true,
+    "assert": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 4],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "no-cond-assign": ["error", "always"],
+    "no-console": "off",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-unused-vars": "error",
+    "eqeqeq": "error",
+    "block-scoped-var": "error",
+    "curly": "error",
+    "no-case-declarations": "error",
+    "no-else-return": "error",
+    "no-empty-function": "error",
+    "no-empty-pattern": "error",
+    "no-eq-null": "error",
+    "no-implicit-coercion": "error",
+    "no-loop-func": "error",
+    "no-magic-numbers": "error",
+    "no-unused-expressions": "error",
+    "no-useless-concat": "error",
+    "yoda": "error",
+    "no-undef-init": "error",
+    "no-use-before-define": "error",
+    "global-require": "error",
+    "no-path-concat": "error",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-style": ["error", "last"],
+    "computed-property-spacing": ["error", "never"]
+  }
+}
