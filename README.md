@@ -12,7 +12,7 @@ This boilerplate project has all basic setup you need to start developing your t
 * [Prettier](https://prettier.io)
 * [Eslint](https://eslint.org)
 
-## Instalation
+## Installation
 * Install ```JDK```
 * Install ```Node.js```
 * Execute ```npn install```
