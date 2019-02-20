@@ -1,5 +1,5 @@
 ## Sync webdriverIO v5 babel mocha chai selenium-standalone allure POM prettier eslint
-This boilerplate project has all basic setup you need to start developing your test framework for UI automation based on WebdriverIO / Mocha / Page Object Model.
+This boilerplate project has all basic setup you need to start developing your test framework for UI automation based on modern JavaScript / WebdriverIO / Mocha / Page Object Model.
 
 ## Stack
 * [WebdriverIO](https://webdriver.io)
