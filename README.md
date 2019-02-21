@@ -21,4 +21,4 @@ This boilerplate project has all basic setup you need to start developing your t
 To execute tests: ` npm test`, to generate a report: `npm run report`
 
 ## Additional information
-If you would like to use ES6+ syntax in _wdio.conf.js_ file you just need to add `require("@babel/register")` as a first line there.
+If you would like to use ES6+ syntax in _wdio.conf.js_ file you just need to add `require("@babel/register")` as a first line in there.
