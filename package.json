@@ -7,8 +7,8 @@
         "pretty": "prettier --write",
         "lint": "jest",
         "precommit": "lint-staged",
-        "test": "wdio wdio.conf.js",
-        "report": "allure generate ./reports/allure-results -o ./reports/allure-report && allure open ./reports/allure-report"
+        "test": "find ./reports/allure-results -type f ! -name '*.log' -exec rm -rf {} \\; && wdio wdio.conf.js",
+        "report": "allure generate --clean ./reports/allure-results -o ./reports/allure-report && allure open ./reports/allure-report"
     },
     "lint-staged": {
         "*.js": [
