@@ -15,7 +15,7 @@ This boilerplate project has all basic setup you need to start developing your t
 ## Installation
 * Install `JDK`
 * Install `Node.js`
-* Execute `npn install`
+* Execute `npm install`
 
 ## Commands
 To execute tests: ` npm test`, to generate a report: `npm run report`.
